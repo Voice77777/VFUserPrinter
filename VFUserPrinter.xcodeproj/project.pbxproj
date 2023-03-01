@@ -1,0 +1,567 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		030F24DE8DDD4490DB06B35C /* Pods_VFUserPrinter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88BCA305264D93953D27739 /* Pods_VFUserPrinter.framework */; };
+		50358C0E29AF897B00C377A7 /* VFUserPrinter.docc in Sources */ = {isa = PBXBuildFile; fileRef = 50358C0D29AF897B00C377A7 /* VFUserPrinter.docc */; };
+		50358C1429AF897B00C377A7 /* VFUserPrinter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50358C0929AF897B00C377A7 /* VFUserPrinter.framework */; };
+		50358C1929AF897B00C377A7 /* VFUserPrinterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50358C1829AF897B00C377A7 /* VFUserPrinterTests.swift */; };
+		50358C1A29AF897B00C377A7 /* VFUserPrinter.h in Headers */ = {isa = PBXBuildFile; fileRef = 50358C0C29AF897B00C377A7 /* VFUserPrinter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		50358C2429AF8A1A00C377A7 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50358C2329AF8A1A00C377A7 /* User.swift */; };
+		C84B3086ABC6983420F3EC0B /* Pods_VFUserPrinter_VFUserPrinterTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53F8E2ECD40C2A14E1170AEB /* Pods_VFUserPrinter_VFUserPrinterTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		50358C1529AF897B00C377A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50358C0029AF897A00C377A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50358C0829AF897B00C377A7;
+			remoteInfo = VFUserPrinter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2DC16488231BDBAC147ABABA /* Pods-VFUserPrinter-VFUserPrinterTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VFUserPrinter-VFUserPrinterTests.debug.xcconfig"; path = "Target Support Files/Pods-VFUserPrinter-VFUserPrinterTests/Pods-VFUserPrinter-VFUserPrinterTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4C20B7F3703E71D113CA7735 /* Pods-VFUserPrinter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VFUserPrinter.debug.xcconfig"; path = "Target Support Files/Pods-VFUserPrinter/Pods-VFUserPrinter.debug.xcconfig"; sourceTree = "<group>"; };
+		50358C0929AF897B00C377A7 /* VFUserPrinter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VFUserPrinter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		50358C0C29AF897B00C377A7 /* VFUserPrinter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VFUserPrinter.h; sourceTree = "<group>"; };
+		50358C0D29AF897B00C377A7 /* VFUserPrinter.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = VFUserPrinter.docc; sourceTree = "<group>"; };
+		50358C1329AF897B00C377A7 /* VFUserPrinterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VFUserPrinterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		50358C1829AF897B00C377A7 /* VFUserPrinterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VFUserPrinterTests.swift; sourceTree = "<group>"; };
+		50358C2329AF8A1A00C377A7 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		53F8E2ECD40C2A14E1170AEB /* Pods_VFUserPrinter_VFUserPrinterTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VFUserPrinter_VFUserPrinterTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		552788A2BB635E28BC5FC8E3 /* Pods-VFUserPrinter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VFUserPrinter.release.xcconfig"; path = "Target Support Files/Pods-VFUserPrinter/Pods-VFUserPrinter.release.xcconfig"; sourceTree = "<group>"; };
+		6CF37F97A9EA9B3D420708A6 /* Pods-VFUserPrinter-VFUserPrinterTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VFUserPrinter-VFUserPrinterTests.release.xcconfig"; path = "Target Support Files/Pods-VFUserPrinter-VFUserPrinterTests/Pods-VFUserPrinter-VFUserPrinterTests.release.xcconfig"; sourceTree = "<group>"; };
+		D88BCA305264D93953D27739 /* Pods_VFUserPrinter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VFUserPrinter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		50358C0629AF897B00C377A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				030F24DE8DDD4490DB06B35C /* Pods_VFUserPrinter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50358C1029AF897B00C377A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50358C1429AF897B00C377A7 /* VFUserPrinter.framework in Frameworks */,
+				C84B3086ABC6983420F3EC0B /* Pods_VFUserPrinter_VFUserPrinterTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		50358BFF29AF897A00C377A7 = {
+			isa = PBXGroup;
+			children = (
+				50358C0B29AF897B00C377A7 /* Sources */,
+				50358C1729AF897B00C377A7 /* VFUserPrinterTests */,
+				50358C0A29AF897B00C377A7 /* Products */,
+				966614982077D820571960AC /* Pods */,
+				DDA7D04D84D094A3D2A13B49 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		50358C0A29AF897B00C377A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				50358C0929AF897B00C377A7 /* VFUserPrinter.framework */,
+				50358C1329AF897B00C377A7 /* VFUserPrinterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		50358C0B29AF897B00C377A7 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				50358C0C29AF897B00C377A7 /* VFUserPrinter.h */,
+				50358C0D29AF897B00C377A7 /* VFUserPrinter.docc */,
+				50358C2329AF8A1A00C377A7 /* User.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		50358C1729AF897B00C377A7 /* VFUserPrinterTests */ = {
+			isa = PBXGroup;
+			children = (
+				50358C1829AF897B00C377A7 /* VFUserPrinterTests.swift */,
+			);
+			path = VFUserPrinterTests;
+			sourceTree = "<group>";
+		};
+		966614982077D820571960AC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4C20B7F3703E71D113CA7735 /* Pods-VFUserPrinter.debug.xcconfig */,
+				552788A2BB635E28BC5FC8E3 /* Pods-VFUserPrinter.release.xcconfig */,
+				2DC16488231BDBAC147ABABA /* Pods-VFUserPrinter-VFUserPrinterTests.debug.xcconfig */,
+				6CF37F97A9EA9B3D420708A6 /* Pods-VFUserPrinter-VFUserPrinterTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DDA7D04D84D094A3D2A13B49 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D88BCA305264D93953D27739 /* Pods_VFUserPrinter.framework */,
+				53F8E2ECD40C2A14E1170AEB /* Pods_VFUserPrinter_VFUserPrinterTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		50358C0429AF897B00C377A7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50358C1A29AF897B00C377A7 /* VFUserPrinter.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		50358C0829AF897B00C377A7 /* VFUserPrinter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50358C1D29AF897B00C377A7 /* Build configuration list for PBXNativeTarget "VFUserPrinter" */;
+			buildPhases = (
+				DE0EDDE36CB3EACE19021B8B /* [CP] Check Pods Manifest.lock */,
+				50358C0429AF897B00C377A7 /* Headers */,
+				50358C0529AF897B00C377A7 /* Sources */,
+				50358C0629AF897B00C377A7 /* Frameworks */,
+				50358C0729AF897B00C377A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VFUserPrinter;
+			productName = VFUserPrinter;
+			productReference = 50358C0929AF897B00C377A7 /* VFUserPrinter.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		50358C1229AF897B00C377A7 /* VFUserPrinterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50358C2029AF897B00C377A7 /* Build configuration list for PBXNativeTarget "VFUserPrinterTests" */;
+			buildPhases = (
+				B592A87441238F44C47FB9FD /* [CP] Check Pods Manifest.lock */,
+				50358C0F29AF897B00C377A7 /* Sources */,
+				50358C1029AF897B00C377A7 /* Frameworks */,
+				50358C1129AF897B00C377A7 /* Resources */,
+				BCAC557B7D2103D559439701 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50358C1629AF897B00C377A7 /* PBXTargetDependency */,
+			);
+			name = VFUserPrinterTests;
+			productName = VFUserPrinterTests;
+			productReference = 50358C1329AF897B00C377A7 /* VFUserPrinterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		50358C0029AF897A00C377A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					50358C0829AF897B00C377A7 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					50358C1229AF897B00C377A7 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 50358C0329AF897A00C377A7 /* Build configuration list for PBXProject "VFUserPrinter" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 50358BFF29AF897A00C377A7;
+			productRefGroup = 50358C0A29AF897B00C377A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				50358C0829AF897B00C377A7 /* VFUserPrinter */,
+				50358C1229AF897B00C377A7 /* VFUserPrinterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		50358C0729AF897B00C377A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50358C1129AF897B00C377A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B592A87441238F44C47FB9FD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VFUserPrinter-VFUserPrinterTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BCAC557B7D2103D559439701 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VFUserPrinter-VFUserPrinterTests/Pods-VFUserPrinter-VFUserPrinterTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VFUserPrinter-VFUserPrinterTests/Pods-VFUserPrinter-VFUserPrinterTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VFUserPrinter-VFUserPrinterTests/Pods-VFUserPrinter-VFUserPrinterTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE0EDDE36CB3EACE19021B8B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VFUserPrinter-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		50358C0529AF897B00C377A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50358C2429AF8A1A00C377A7 /* User.swift in Sources */,
+				50358C0E29AF897B00C377A7 /* VFUserPrinter.docc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50358C0F29AF897B00C377A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50358C1929AF897B00C377A7 /* VFUserPrinterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		50358C1629AF897B00C377A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50358C0829AF897B00C377A7 /* VFUserPrinter */;
+			targetProxy = 50358C1529AF897B00C377A7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		50358C1B29AF897B00C377A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		50358C1C29AF897B00C377A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		50358C1E29AF897B00C377A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C20B7F3703E71D113CA7735 /* Pods-VFUserPrinter.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.devonics.VFUserPrinter;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		50358C1F29AF897B00C377A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 552788A2BB635E28BC5FC8E3 /* Pods-VFUserPrinter.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.devonics.VFUserPrinter;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		50358C2129AF897B00C377A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DC16488231BDBAC147ABABA /* Pods-VFUserPrinter-VFUserPrinterTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.devonics.VFUserPrinterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		50358C2229AF897B00C377A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CF37F97A9EA9B3D420708A6 /* Pods-VFUserPrinter-VFUserPrinterTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.devonics.VFUserPrinterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		50358C0329AF897A00C377A7 /* Build configuration list for PBXProject "VFUserPrinter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50358C1B29AF897B00C377A7 /* Debug */,
+				50358C1C29AF897B00C377A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50358C1D29AF897B00C377A7 /* Build configuration list for PBXNativeTarget "VFUserPrinter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50358C1E29AF897B00C377A7 /* Debug */,
+				50358C1F29AF897B00C377A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50358C2029AF897B00C377A7 /* Build configuration list for PBXNativeTarget "VFUserPrinterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50358C2129AF897B00C377A7 /* Debug */,
+				50358C2229AF897B00C377A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 50358C0029AF897A00C377A7 /* Project object */;
+}
